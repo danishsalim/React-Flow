@@ -1,0 +1,94 @@
+
+
+.wrapper{
+  height: 500px;
+  width:  1360px;
+  margin:0;
+  padding: 0;
+ background-color: beige;
+ 
+}
+
+button {
+  margin: 1rem;
+  border-radius: 8px;
+  background-color:green;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: lightgreen;
+}
+.text-updater-node {
+  border: 1px solid #eee;
+  padding: 0px;
+  border-radius: 5px;
+  
+}
+
+.react-flow input{
+  width: 5rem;
+  height: 15px;
+  font-size: 1rem;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0.5rem;
+  
+} 
+.elementx{
+  display: flex;
+}
+.text-updater-container:hover .hidden {
+  display:block;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 5px;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  font-size: larger;
+  padding-top: 15px;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+/* .react-flow .react-flow__handle {
+  width: 10px;
+  height: 8px;
+  border-radius: 3px;
+} */
+
+/* .react-flow .react-flow__handle-top {
+  top: 3px;
+} 
+
+ .react-flow .react-flow__handle-bottom {
+  bottom: -19px;
+} */
+
+.react-flow .react-flow__node {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 5px;
+  border-radius: 50%;
+  font-weight: 500;
+}
+
+
+
+/* .react-flow .react-flow__edge path,
+.react-flow__connectionline path {
+  stroke-width: 2;
+} */
+
+
